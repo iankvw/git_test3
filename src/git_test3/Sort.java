@@ -3,7 +3,6 @@ package git_test3;
 public class Sort {
 
     public static void sort(int[] a) {
-        int test = 0;
         for (int i = 1; i < a.length; ++i) {
             int value = a[i];
             int j;
